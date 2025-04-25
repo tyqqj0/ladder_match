@@ -128,6 +128,32 @@ def update_results_excel(all_results):
     # 创建数据框
     df_data = []
     
+    # 找出最大层数，用于颜色范围计算
+    max_rank = 1  # 默认至少是1，避免除以0
+    for model_name, results in all_results.items():
+        for prompt_type, try_results in results.items():
+            for try_times, rank in try_results.items():
+                if isinstance(rank, (int, float)) and rank > 0 and rank > max_rank:
+                    max_rank = rank
+    
+    logging.info(f"检测到的最大层数: {max_rank}")
+    
+    # 计算颜色范围
+    def get_color_for_rank(rank):
+        if rank == -1:  # 错误
+            return "FF0000"  # 红色
+        elif rank == 0:  # 失败
+            return "FFC7CE"  # 浅红色
+        elif rank > 0:  # 成功，颜色从浅绿色渐变到深绿色
+            # 计算颜色范围从浅绿色(200,255,200)到深绿色(0,128,0)
+            # 根据rank/max_rank的比例插值
+            ratio = rank / max_rank
+            r = int(200 - ratio * 200)  # 200->0
+            g = int(255 - ratio * 127)  # 255->128
+            b = int(200 - ratio * 200)  # 200->0
+            return f"{r:02X}{g:02X}{b:02X}"
+        return "FFFFFF"  # 默认白色
+    
     for model_name, results in all_results.items():
         row = {"模型名称": model_name}
         
@@ -179,14 +205,8 @@ def update_results_excel(all_results):
                     # 根据值设置颜色
                     if header != "模型名称" and row[header] is not None:
                         value = row[header]
-                        if value == -1:  # 错误
-                            ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color="FF0000", end_color="FF0000", fill_type="solid")  # 红色
-                        elif value == 0:  # 失败
-                            ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")  # 浅红色
-                        elif value > 0:  # 成功，颜色深浅根据层数
-                            green_intensity = min(255, int(150 + value * 10))
-                            color = f"{green_intensity:02X}FF{green_intensity:02X}"
-                            ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color=color, end_color=color, fill_type="solid")
+                        color = get_color_for_rank(value)
+                        ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color=color, end_color=color, fill_type="solid")
         
         # 调整列宽
         for col_idx, header in enumerate(headers, 1):
@@ -211,14 +231,8 @@ def update_results_excel(all_results):
             for col_idx in range(2, len(headers) + 1):
                 value = ws.cell(row=row_idx, column=col_idx).value
                 if value is not None:
-                    if value == -1:  # 错误
-                        ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color="FF0000", end_color="FF0000", fill_type="solid")  # 红色
-                    elif value == 0:  # 失败
-                        ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")  # 浅红色
-                    elif value > 0:  # 成功，颜色深浅根据层数
-                        green_intensity = min(255, int(150 + value * 10))
-                        color = f"{green_intensity:02X}FF{green_intensity:02X}"
-                        ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color=color, end_color=color, fill_type="solid")
+                    color = get_color_for_rank(value)
+                    ws.cell(row=row_idx, column=col_idx).fill = PatternFill(start_color=color, end_color=color, fill_type="solid")
         
         # 调整列宽
         for col_idx, header in enumerate(headers, 1):
