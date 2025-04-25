@@ -1,0 +1,578 @@
+2025-04-25 19:20:26,795 - INFO - 开始批量运行，共24个任务
+2025-04-25 19:20:26,803 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/3
+2025-04-25 19:20:38,180 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1
+2025-04-25 19:20:38,189 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/3
+2025-04-25 19:23:17,752 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2
+2025-04-25 19:23:17,756 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/3
+2025-04-25 19:23:26,676 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3
+2025-04-25 19:23:26,679 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/3
+2025-04-25 19:25:42,059 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1
+2025-04-25 19:25:42,065 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/3
+2025-04-25 19:26:03,761 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2
+2025-04-25 19:26:03,772 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 1/3
+2025-04-25 19:27:53,240 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3
+2025-04-25 19:27:53,243 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 尝试 1/3
+2025-04-25 19:33:48,084 - INFO - 开始批量运行，共24个任务
+2025-04-25 19:33:48,093 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 19:37:52,264 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 返回码: 1
+2025-04-25 19:37:53,265 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 2/10
+2025-04-25 19:38:11,283 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1
+2025-04-25 19:38:11,288 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 19:39:32,213 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 19:39:33,213 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 2/10
+2025-04-25 19:41:20,078 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2
+2025-04-25 19:41:20,083 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 19:41:26,562 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3
+2025-04-25 19:41:26,567 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 19:41:34,761 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1
+2025-04-25 19:41:34,766 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 19:43:11,584 - INFO - 开始批量运行，共24个任务，使用8个并行线程
+2025-04-25 19:43:11,587 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 19:43:11,588 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 19:43:11,589 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 19:43:11,590 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 19:43:11,592 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 19:43:11,593 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 19:43:11,594 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:43:11,597 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:43:17,577 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3
+2025-04-25 19:43:17,587 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:43:17,626 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2
+2025-04-25 19:43:17,631 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:43:17,733 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3
+2025-04-25 19:43:17,737 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:43:17,771 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1
+2025-04-25 19:43:17,775 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:43:17,963 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1
+2025-04-25 19:43:17,967 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 19:43:50,515 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2
+2025-04-25 19:43:50,520 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 19:44:11,040 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2
+2025-04-25 19:44:11,043 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 19:44:49,094 - INFO - 开始批量运行，共24个任务，使用16个并行线程
+2025-04-25 19:44:49,096 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 19:44:49,096 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 19:44:49,097 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 19:44:49,098 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 19:44:49,099 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 19:44:49,102 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 19:44:49,103 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:44:49,106 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:44:49,107 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:44:49,109 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:44:49,111 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:44:49,113 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:44:49,114 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 19:44:49,116 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 19:44:49,118 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 19:44:49,121 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 19:44:56,140 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3
+2025-04-25 19:44:56,150 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 19:44:56,351 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2
+2025-04-25 19:44:56,355 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 19:44:56,360 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3
+2025-04-25 19:44:56,363 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:44:56,420 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1
+2025-04-25 19:44:56,424 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:44:56,429 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2
+2025-04-25 19:44:56,433 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:44:56,433 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1
+2025-04-25 19:44:56,437 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:44:56,514 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2
+2025-04-25 19:44:56,518 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:45:09,677 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 返回码: 1
+2025-04-25 19:45:09,872 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3
+2025-04-25 19:45:09,876 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:45:10,678 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 尝试 2/10
+2025-04-25 19:45:24,096 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 19:45:25,096 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 2/10
+2025-04-25 19:45:25,599 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3
+2025-04-25 19:45:55,587 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1
+2025-04-25 19:45:56,344 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 返回码: 1
+2025-04-25 19:45:57,344 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 2/10
+2025-04-25 19:46:11,157 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 返回码: 1
+2025-04-25 19:46:12,157 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 尝试 2/10
+2025-04-25 19:46:15,095 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2
+2025-04-25 19:46:20,025 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=2
+2025-04-25 19:46:30,073 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1
+2025-04-25 19:46:47,408 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 返回码: 1
+2025-04-25 19:46:48,408 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 3/10
+2025-04-25 19:47:06,420 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 返回码: 1
+2025-04-25 19:47:07,421 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 尝试 2/10
+2025-04-25 19:47:08,222 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=2
+2025-04-25 19:47:19,980 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 19:47:20,980 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 3/10
+2025-04-25 19:47:36,358 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 返回码: 1
+2025-04-25 19:47:37,359 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 尝试 2/10
+2025-04-25 19:48:04,671 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=2
+2025-04-25 19:48:09,616 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=1
+2025-04-25 19:48:12,809 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=3
+2025-04-25 19:48:37,479 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=3
+2025-04-25 19:49:01,522 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 返回码: 1
+2025-04-25 19:49:02,522 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 4/10
+2025-04-25 19:49:28,200 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=1
+2025-04-25 19:49:38,746 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=3
+2025-04-25 19:50:23,240 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=1
+2025-04-25 19:50:38,154 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 19:50:39,154 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 4/10
+2025-04-25 19:52:15,818 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=1
+2025-04-25 19:54:02,767 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 19:54:03,767 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 5/10
+2025-04-25 19:54:20,325 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=2
+2025-04-25 19:55:45,614 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=3
+2025-04-25 19:55:45,620 - INFO - 所有任务已完成，共24个任务，成功24个，失败0个
+2025-04-25 19:58:39,565 - INFO - 开始批量运行，共24个任务，使用16个并行线程
+2025-04-25 19:58:39,567 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 19:58:39,568 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 19:58:39,568 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 19:58:39,569 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 19:58:39,570 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 19:58:39,571 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 19:58:39,571 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:58:39,572 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:58:39,573 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:58:39,574 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:58:39,575 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:58:39,575 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 19:58:39,576 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 19:58:39,578 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 19:58:39,583 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 19:58:39,585 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 19:58:57,617 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 返回码: 1
+2025-04-25 19:58:58,618 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 2/10
+2025-04-25 19:59:10,441 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2
+2025-04-25 19:59:10,472 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 19:59:15,643 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1
+2025-04-25 19:59:15,646 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 19:59:21,658 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3
+2025-04-25 19:59:21,661 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 19:59:30,124 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1
+2025-04-25 19:59:30,129 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 19:59:37,702 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 返回码: 1
+2025-04-25 19:59:38,702 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 2/10
+2025-04-25 19:59:42,629 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 19:59:43,629 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 2/10
+2025-04-25 20:00:06,659 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 返回码: 1
+2025-04-25 20:00:07,659 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 3/10
+2025-04-25 20:00:14,187 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 返回码: 1
+2025-04-25 20:00:15,187 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 3/10
+2025-04-25 20:00:45,667 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 返回码: 1
+2025-04-25 20:00:46,668 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 2/10
+2025-04-25 20:01:04,873 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 返回码: 1
+2025-04-25 20:01:05,873 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 4/10
+2025-04-25 20:01:14,065 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3
+2025-04-25 20:01:14,069 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:01:14,660 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 20:01:15,660 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 3/10
+2025-04-25 20:02:02,218 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 返回码: 1
+2025-04-25 20:02:03,219 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 2/10
+2025-04-25 20:02:13,199 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1
+2025-04-25 20:02:13,201 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:02:18,563 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 返回码: 1
+2025-04-25 20:02:19,564 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 5/10
+2025-04-25 20:02:29,370 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 返回码: 1
+2025-04-25 20:02:30,371 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 尝试 2/10
+2025-04-25 20:02:36,147 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3
+2025-04-25 20:02:36,152 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:02:42,336 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2
+2025-04-25 20:02:42,340 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:02:49,149 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 20:02:50,150 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 2/10
+2025-04-25 20:02:51,843 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=3
+2025-04-25 20:02:57,389 - WARNING - 任务失败: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 20:02:58,390 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 4/10
+2025-04-25 20:03:10,527 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 返回码: 1
+2025-04-25 20:03:11,528 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 尝试 2/10
+2025-04-25 20:03:14,950 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3
+2025-04-25 20:03:17,481 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2
+2025-04-25 20:03:43,022 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 返回码: 1
+2025-04-25 20:03:44,022 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 尝试 3/10
+2025-04-25 20:04:00,567 - WARNING - 任务失败: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 返回码: 1
+2025-04-25 20:04:01,567 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 3/10
+2025-04-25 20:04:17,929 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=1
+2025-04-25 20:04:20,684 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=1
+2025-04-25 20:04:24,010 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2
+2025-04-25 20:04:47,899 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=1
+2025-04-25 20:05:08,136 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=1
+2025-04-25 20:05:56,010 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=2
+2025-04-25 20:06:59,453 - INFO - 开始批量运行，共24个任务，使用16个并行线程
+2025-04-25 20:06:59,455 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:06:59,456 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:06:59,456 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:06:59,458 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:06:59,460 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:06:59,462 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:06:59,462 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:06:59,464 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:06:59,465 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:06:59,468 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:06:59,469 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:06:59,472 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:06:59,473 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:06:59,474 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:06:59,476 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:06:59,480 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:07:06,901 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 达到层数: 3
+2025-04-25 20:07:06,912 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 达到层数: 5
+2025-04-25 20:07:06,942 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:07:06,948 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:07:06,965 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:07:06,966 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,030 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 达到层数: 1
+2025-04-25 20:07:07,046 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:07:07,047 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,053 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 达到层数: 14
+2025-04-25 20:07:07,068 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:07:07,069 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,081 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 达到层数: 7
+2025-04-25 20:07:07,088 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 达到层数: 11
+2025-04-25 20:07:07,100 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:07:07,102 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,107 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 达到层数: 3
+2025-04-25 20:07:07,117 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:07:07,123 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,135 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:07:07,135 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,136 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 达到层数: 7
+2025-04-25 20:07:07,136 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 达到层数: 19
+2025-04-25 20:07:07,145 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 达到层数: 1
+2025-04-25 20:07:07,151 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 达到层数: 7
+2025-04-25 20:07:07,153 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:07:07,155 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,155 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 达到层数: 0
+2025-04-25 20:07:07,160 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 达到层数: 6
+2025-04-25 20:07:07,166 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 达到层数: 14
+2025-04-25 20:07:07,177 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,188 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,191 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 达到层数: 5
+2025-04-25 20:07:07,204 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,208 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 达到层数: 2
+2025-04-25 20:07:07,220 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,237 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,252 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,265 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:07,278 - ERROR - 任务异常: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:12,715 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 达到层数: 1
+2025-04-25 20:07:12,731 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:12,972 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 达到层数: 6
+2025-04-25 20:07:12,987 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:13,023 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 达到层数: 3
+2025-04-25 20:07:13,038 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:13,125 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 达到层数: 5
+2025-04-25 20:07:13,141 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:13,147 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 达到层数: 5
+2025-04-25 20:07:13,164 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:13,196 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 达到层数: 6
+2025-04-25 20:07:13,212 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:13,240 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 达到层数: 6
+2025-04-25 20:07:13,254 - ERROR - 任务异常: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 错误: Unknown format code 'X' for object of type 'float'
+2025-04-25 20:07:13,359 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 达到层数: 9
+2025-04-25 20:07:13,384 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:07:13,389 - INFO - 所有任务已完成，共24个任务，成功24个，失败0个
+2025-04-25 20:10:04,125 - INFO - 已加载现有结果数据: 2 个模型
+2025-04-25 20:10:04,125 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 结果=5
+2025-04-25 20:10:04,125 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 结果=7
+2025-04-25 20:10:04,125 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 结果=11
+2025-04-25 20:10:04,125 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 结果=2
+2025-04-25 20:10:04,125 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 结果=1
+2025-04-25 20:10:04,125 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 结果=3
+2025-04-25 20:10:04,125 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 结果=7
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 结果=6
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 结果=3
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 结果=7
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 结果=0
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 结果=1
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 结果=14
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 结果=14
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 结果=19
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 结果=5
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 结果=6
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 结果=6
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 结果=6
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 结果=3
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 结果=5
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 结果=9
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 结果=1
+2025-04-25 20:10:04,126 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 结果=5
+2025-04-25 20:10:04,126 - INFO - 开始批量运行，共0个任务，使用16个并行线程
+2025-04-25 20:10:04,135 - INFO - 所有任务已完成，共0个任务，成功0个，失败0个
+2025-04-25 20:10:38,439 - INFO - 已加载现有结果数据: 2 个模型
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 结果=5
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 结果=7
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 结果=11
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 结果=2
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 结果=1
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 结果=3
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 结果=7
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 结果=6
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 结果=3
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 结果=7
+2025-04-25 20:10:38,439 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 结果=0
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 结果=1
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 结果=14
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 结果=14
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 结果=19
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 结果=5
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 结果=6
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 结果=6
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 结果=6
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 结果=3
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 结果=5
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 结果=9
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 结果=1
+2025-04-25 20:10:38,440 - INFO - 跳过已有结果: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 结果=5
+2025-04-25 20:10:38,440 - INFO - 开始批量运行，共0个任务，使用16个并行线程
+2025-04-25 20:10:38,449 - INFO - 所有任务已完成，共0个任务，成功0个，失败0个
+2025-04-25 20:21:29,848 - INFO - 开始批量运行，共24个任务，使用40个并行线程
+2025-04-25 20:21:29,850 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,851 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,852 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:21:29,853 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,854 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,856 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:21:29,857 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,860 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,861 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:21:29,862 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,865 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,867 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:21:29,869 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,870 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,873 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:21:29,874 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,877 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,878 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:21:29,882 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,885 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,886 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:21:29,889 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:21:29,891 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:21:29,893 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:21:38,888 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 达到层数: 7
+2025-04-25 20:21:38,944 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:38,995 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 达到层数: 3
+2025-04-25 20:21:39,020 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,053 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 达到层数: 7
+2025-04-25 20:21:39,053 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 达到层数: 14
+2025-04-25 20:21:39,076 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,095 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 达到层数: 2
+2025-04-25 20:21:39,095 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 达到层数: 6
+2025-04-25 20:21:39,106 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,127 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 达到层数: 0
+2025-04-25 20:21:39,128 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 达到层数: 6
+2025-04-25 20:21:39,134 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,160 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,188 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,213 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 达到层数: 6
+2025-04-25 20:21:39,213 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 达到层数: 1
+2025-04-25 20:21:39,213 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 达到层数: 5
+2025-04-25 20:21:39,215 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 达到层数: 6
+2025-04-25 20:21:39,215 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 达到层数: 14
+2025-04-25 20:21:39,216 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 达到层数: 5
+2025-04-25 20:21:39,216 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 达到层数: 7
+2025-04-25 20:21:39,216 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 达到层数: 5
+2025-04-25 20:21:39,217 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 达到层数: 5
+2025-04-25 20:21:39,217 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 达到层数: 19
+2025-04-25 20:21:39,217 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 达到层数: 3
+2025-04-25 20:21:39,217 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 达到层数: 1
+2025-04-25 20:21:39,217 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 达到层数: 11
+2025-04-25 20:21:39,218 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 达到层数: 1
+2025-04-25 20:21:39,218 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 达到层数: 3
+2025-04-25 20:21:39,219 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,244 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,263 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 达到层数: 9
+2025-04-25 20:21:39,269 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,293 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,317 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,341 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,365 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,391 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,414 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,441 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,462 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,490 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,517 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,546 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,569 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,593 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,617 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:21:39,622 - INFO - 所有任务已完成，共24个任务，成功24个，失败0个
+2025-04-25 20:36:51,052 - INFO - 开始批量运行，共180个任务，使用40个并行线程
+2025-04-25 20:36:51,055 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,055 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,056 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,056 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,057 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,057 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,058 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,059 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,059 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,060 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,061 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,061 - INFO - 运行任务: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,063 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,063 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,064 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,065 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,065 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,066 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,066 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,067 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,067 - INFO - 运行任务: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,068 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,069 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,069 - INFO - 运行任务: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,070 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,070 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,071 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,072 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,072 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,073 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,074 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,075 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,076 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,085 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,086 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,099 - INFO - 运行任务: model_name=gpt-4.1, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,119 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:36:51,139 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:36:51,151 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:36:51,171 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:37:05,992 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=1, 达到层数: 9
+2025-04-25 20:37:06,020 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=2, 达到层数: 6
+2025-04-25 20:37:06,072 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,090 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:37:06,094 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=1, 达到层数: 14
+2025-04-25 20:37:06,095 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=1, 达到层数: 2
+2025-04-25 20:37:06,108 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,143 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,195 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,216 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:37:06,221 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:37:06,230 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:37:06,363 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=3, 达到层数: 19
+2025-04-25 20:37:06,397 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=2, 达到层数: 1
+2025-04-25 20:37:06,402 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,433 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,438 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:37:06,444 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:37:06,749 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=3, 达到层数: 3
+2025-04-25 20:37:06,810 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,813 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:37:06,821 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_mllm, try_times=3, 达到层数: 5
+2025-04-25 20:37:06,869 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:06,872 - INFO - 运行任务: model_name=gpt-4.1-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:37:07,473 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=2, 达到层数: 0
+2025-04-25 20:37:07,543 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:07,549 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:37:07,555 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=2, 达到层数: 1
+2025-04-25 20:37:07,612 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:07,645 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:37:07,876 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_llm, try_times=3, 达到层数: 3
+2025-04-25 20:37:07,925 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:07,937 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:37:08,967 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=1, 达到层数: 7
+2025-04-25 20:37:09,018 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:09,026 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:37:09,484 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=2, 达到层数: 6
+2025-04-25 20:37:09,532 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:09,543 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:37:09,608 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=1, 达到层数: 5
+2025-04-25 20:37:09,689 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:09,716 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:37:09,743 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=3, 达到层数: 11
+2025-04-25 20:37:09,810 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:09,816 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:37:10,466 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_mllm, try_times=1, 达到层数: 7
+2025-04-25 20:37:10,536 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:10,542 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:37:10,897 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_llm, try_times=2, 达到层数: 14
+2025-04-25 20:37:10,935 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:10,940 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:37:11,657 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=1_llm, try_times=2, 达到层数: 7
+2025-04-25 20:37:11,698 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:11,703 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:37:11,789 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=3, 达到层数: 5
+2025-04-25 20:37:11,865 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:11,868 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:37:12,063 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=2, 达到层数: 3
+2025-04-25 20:37:12,091 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:12,109 - INFO - 运行任务: model_name=gpt-4.1-nano, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:37:12,357 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=1, 达到层数: 5
+2025-04-25 20:37:12,415 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:12,418 - INFO - 运行任务: model_name=o3-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:37:12,995 - INFO - 任务成功完成: model_name=gpt-4o-mini, prompt_type=2_mllm, try_times=3, 达到层数: 1
+2025-04-25 20:37:13,028 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:13,031 - INFO - 运行任务: model_name=o3-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:37:13,357 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=2_llm, try_times=3, 达到层数: 6
+2025-04-25 20:37:13,389 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:13,393 - INFO - 运行任务: model_name=o3-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:37:13,890 - INFO - 任务成功完成: model_name=gpt-4o, prompt_type=1_mllm, try_times=1, 达到层数: 6
+2025-04-25 20:37:13,924 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:13,929 - INFO - 运行任务: model_name=o3-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:37:20,600 - INFO - 任务成功完成: model_name=gpt-4.1, prompt_type=1_mllm, try_times=2, 达到层数: 1
+2025-04-25 20:37:20,624 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:20,627 - INFO - 运行任务: model_name=o3-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:37:24,493 - INFO - 任务成功完成: model_name=gpt-4.1, prompt_type=1_llm, try_times=3, 达到层数: 1
+2025-04-25 20:37:24,517 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:24,520 - INFO - 运行任务: model_name=o3-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:37:28,005 - INFO - 任务成功完成: model_name=gpt-4.1, prompt_type=1_llm, try_times=1, 达到层数: 1
+2025-04-25 20:37:28,028 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:28,030 - INFO - 运行任务: model_name=o3-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:37:39,463 - INFO - 任务成功完成: model_name=gpt-4.1, prompt_type=2_mllm, try_times=2, 达到层数: 1
+2025-04-25 20:37:39,488 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:39,490 - INFO - 运行任务: model_name=o3-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:37:47,310 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=1_mllm, try_times=1, 达到层数: 0
+2025-04-25 20:37:47,332 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:47,335 - INFO - 运行任务: model_name=o3-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:37:59,387 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=1_mllm, try_times=2, 达到层数: 1
+2025-04-25 20:37:59,418 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:37:59,420 - INFO - 运行任务: model_name=o3-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:38:04,666 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=2_llm, try_times=2, 达到层数: 2
+2025-04-25 20:38:04,691 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:04,693 - INFO - 运行任务: model_name=o3-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:38:07,925 - INFO - 任务成功完成: model_name=gpt-4.1-mini, prompt_type=2_mllm, try_times=1, 达到层数: 1
+2025-04-25 20:38:07,950 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:07,953 - INFO - 运行任务: model_name=o3-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:38:20,066 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=1_llm, try_times=2, 达到层数: 1
+2025-04-25 20:38:20,090 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:20,093 - INFO - 运行任务: model_name=o4-mini, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:38:27,633 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=2_llm, try_times=3, 达到层数: 2
+2025-04-25 20:38:27,659 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:27,661 - INFO - 运行任务: model_name=o4-mini, prompt_type=1_llm, try_times=2, 尝试 1/10
+2025-04-25 20:38:27,704 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=2_mllm, try_times=1, 达到层数: 3
+2025-04-25 20:38:27,727 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:27,729 - INFO - 运行任务: model_name=o4-mini, prompt_type=1_llm, try_times=3, 尝试 1/10
+2025-04-25 20:38:28,081 - INFO - 任务成功完成: model_name=o3-mini, prompt_type=1_llm, try_times=2, 达到层数: 1
+2025-04-25 20:38:28,105 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:28,107 - INFO - 运行任务: model_name=o4-mini, prompt_type=2_llm, try_times=1, 尝试 1/10
+2025-04-25 20:38:29,023 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=1_llm, try_times=3, 达到层数: 4
+2025-04-25 20:38:29,051 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:29,054 - INFO - 运行任务: model_name=o4-mini, prompt_type=2_llm, try_times=2, 尝试 1/10
+2025-04-25 20:38:39,960 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=2_mllm, try_times=3, 达到层数: 2
+2025-04-25 20:38:39,986 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:38:39,988 - INFO - 运行任务: model_name=o4-mini, prompt_type=2_llm, try_times=3, 尝试 1/10
+2025-04-25 20:39:02,435 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=2_mllm, try_times=2, 达到层数: 3
+2025-04-25 20:39:02,459 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:39:02,462 - INFO - 运行任务: model_name=o4-mini, prompt_type=1_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:39:12,763 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=1_mllm, try_times=3, 达到层数: 2
+2025-04-25 20:39:12,789 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:39:12,791 - INFO - 运行任务: model_name=o4-mini, prompt_type=1_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:39:19,915 - INFO - 任务成功完成: model_name=gpt-4.1-nano, prompt_type=2_llm, try_times=1, 达到层数: 6
+2025-04-25 20:39:19,947 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:39:19,950 - INFO - 运行任务: model_name=o4-mini, prompt_type=1_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:39:30,011 - INFO - 任务成功完成: model_name=o4-mini, prompt_type=1_llm, try_times=2, 达到层数: 1
+2025-04-25 20:39:30,037 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:39:30,040 - INFO - 运行任务: model_name=o4-mini, prompt_type=2_mllm, try_times=1, 尝试 1/10
+2025-04-25 20:40:32,049 - INFO - 任务成功完成: model_name=o4-mini, prompt_type=1_llm, try_times=1, 达到层数: 1
+2025-04-25 20:40:32,076 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:40:32,079 - INFO - 运行任务: model_name=o4-mini, prompt_type=2_mllm, try_times=2, 尝试 1/10
+2025-04-25 20:40:36,040 - INFO - 任务成功完成: model_name=gpt-4.1-mini, prompt_type=2_mllm, try_times=2, 达到层数: 4
+2025-04-25 20:40:36,068 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:40:36,071 - INFO - 运行任务: model_name=o4-mini, prompt_type=2_mllm, try_times=3, 尝试 1/10
+2025-04-25 20:41:29,640 - INFO - 任务成功完成: model_name=gpt-4.1-mini, prompt_type=2_llm, try_times=1, 达到层数: 8
+2025-04-25 20:41:29,671 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:41:29,674 - INFO - 运行任务: model_name=claude-3-7-sonnet-20250219, prompt_type=1_llm, try_times=1, 尝试 1/10
+2025-04-25 20:41:46,453 - INFO - 任务成功完成: model_name=gpt-4.1-mini, prompt_type=2_llm, try_times=3, 达到层数: 8
+2025-04-25 20:41:46,485 - INFO - 结果已更新到表格: ladder_match_results.xlsx
+2025-04-25 20:41:46,488 - INFO - 运行任务: model_name=claude-3-7-sonnet-20250219, prompt_type=1_llm, try_times=2, 尝试 1/10

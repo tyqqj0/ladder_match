@@ -1,0 +1,13 @@
+.log
+result/
+batch_results/
+source_dataset/
+.pyc
+.log
+.xlsx
+__pycache__/
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+.pytest_cache/

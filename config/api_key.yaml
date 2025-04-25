@@ -1,0 +1,13 @@
+api_config:
+  qianduoduo:
+    api_key: "sk-JSHbpKfrb34iC152fthSoL6aFPXnzPn2OwFvX1JT6gDPfeDA"
+    base_url: "https://api2.aigcbest.top/v1"
+  siliconflow:
+    api_key: "sk-panvhifcocckarpiphvetbvjqfacbowfdkobwtwnwwlijkzc"
+    base_url: "https://api.siliconflow.cn/v1"
+  qianduoduo_beta:
+    api_key: "sk-YddemxnazCsmdSUjusnfxw2WxPSflhxsUfrNnnQvf56f1K0f"
+    base_url: "https://35.aigcbest.top/"
+  tju_api:
+    api_key: "sk-TCnNIx5xLqVOBSzs6VTmdxAdB2D8t9rFE2lOh8BMRTsqs83v"
+    base_url: "https://chatapi.zjt66.top/v1"
