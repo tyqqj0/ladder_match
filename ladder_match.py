@@ -12,6 +12,8 @@ import argparse
 import random
 import sys
 import string
+import logging
+from datetime import datetime
 
 def write_log(jsonl_path, log_to_be_write):
     with open(jsonl_path, 'a') as file:
@@ -115,20 +117,48 @@ def generate_response(service_name, model_name, system_prompt, user_prompt, conf
     queue = multiprocessing.Queue()
     process = multiprocessing.Process(target=generate_response_process, args=(service_name, model_name, system_prompt, user_prompt, config_path, queue, max_waiting_time))
     
+    response = None
     process.start()
     
-    # 等待 max_waiting_time 秒
-    process.join(timeout=max_waiting_time)
+    try:
+        # 等待 max_waiting_time 秒
+        process.join(timeout=max_waiting_time)
+        
+        if process.is_alive():  # 如果进程还在运行，说明超时
+            print("超时，强制终止进程")
+            process.terminate()  # 强制终止进程
+            process.join(timeout=1)  # 再等待1秒确保进程终止
+            
+            # 如果仍然存活，使用kill确保进程被终止
+            if process.is_alive():
+                import signal
+                os.kill(process.pid, signal.SIGKILL)
+                
+            return None, None
+        
+        # 获取进程中的返回值
+        if not queue.empty():
+            response = queue.get(block=False)
+    except Exception as e:
+        print(f"生成响应时出错: {str(e)}")
+        return None, None
+    finally:
+        # 确保进程已终止
+        if process.is_alive():
+            process.terminate()
+            process.join(timeout=1)
+        
+        # 清空队列，防止内存泄漏
+        while not queue.empty():
+            try:
+                queue.get(block=False)
+            except:
+                pass
     
-    if process.is_alive():  # 如果进程还在运行，说明超时
-        print("超时，强制终止进程")
-        process.terminate()  # 强制终止进程
-        process.join()  # 确保进程完全终止
-
+    # 防止返回值异常
+    if response is None:
         return None, None
     
-    # 获取进程中的返回值
-    response = queue.get()
     return response[0], response[1]
 
 def to_ABCD(response, service_name = 'qianduoduo', model_name = 'gpt-4o-mini'):
@@ -342,7 +372,8 @@ def single_layer_race(all_datas, rank, output_path, service_name, model_name, pr
     if any('response' not in data or data['response'] == 'useless_response' for data in processed_rank_datas):
         modify_last_line(output_path, {'rank': rank, 'rank_failure_times': rank_failure_times})
         print(f'游戏失败，请重新开始')
-        sys.exit(1)
+        # 不直接退出程序，而是抛出异常，让上层函数处理
+        raise RuntimeError("模型响应无效，游戏失败")
     else:
         correct_count, total_count = calculate_accuracy(processed_rank_datas)
 
@@ -358,7 +389,9 @@ def single_layer_race(all_datas, rank, output_path, service_name, model_name, pr
 
 def ladder_match(source_data_path, output_dir_path, service_name, model_name, prompt_type, num_workers = 8, save_interval = 50, config_path = None, min_steps = None, max_steps = None, each_number = 100, max_waiting_time = 500, threshold = 3, filter = True, initial_rank = 1, try_times = 1):
     output_path = os.path.join(output_dir_path, f'{model_name}_{prompt_type}_initial_rank_{initial_rank}_try_times_{try_times}.jsonl')
-
+    # 定义结果文件路径
+    result_file = os.path.join(output_dir_path, f'result_{model_name}_{prompt_type}_try{try_times}.json')
+    
     if not os.path.exists(output_dir_path):
         os.makedirs(output_dir_path)
 
@@ -369,6 +402,7 @@ def ladder_match(source_data_path, output_dir_path, service_name, model_name, pr
     all_datas = categorize_data_by_steps(datas)
 
     final_rank = -1  # 默认为-1，表示出错
+    error_info = None
 
     if os.path.exists(output_path):
         with open(output_path, 'r') as file:
@@ -380,7 +414,9 @@ def ladder_match(source_data_path, output_dir_path, service_name, model_name, pr
             if any(value >= 2 for value in rank_failure_times.values()):
                 print(f'游戏已经结束了，最终结果为{rank - 1}')
                 final_rank = rank - 1
-                sys.exit(final_rank)
+                # 将结果写入JSON文件
+                save_result_to_file(result_file, model_name, prompt_type, try_times, final_rank)
+                return final_rank
             else:
                 print(f'继续之前运行失败的游戏，当前挑战第{rank}级')
     else:
@@ -392,7 +428,15 @@ def ladder_match(source_data_path, output_dir_path, service_name, model_name, pr
 
     try:
         while rank <= max_steps:
-            state = single_layer_race(all_datas, rank, output_path, service_name, model_name, prompt_type, num_workers, save_interval, config_path, max_waiting_time, rank_failure_times)
+            try:
+                state = single_layer_race(all_datas, rank, output_path, service_name, model_name, prompt_type, num_workers, save_interval, config_path, max_waiting_time, rank_failure_times)
+            except RuntimeError as e:
+                # 捕获single_layer_race中抛出的异常
+                logging.error(f"单层级游戏失败: {str(e)}")
+                final_rank = -1
+                error_info = str(e)
+                break
+                
             if state == 'success':
                 print(f'第{rank}级成功，开始挑战第{rank + 1}级')
                 rank = rank + 1
@@ -447,9 +491,30 @@ def ladder_match(source_data_path, output_dir_path, service_name, model_name, pr
         except:
             pass
         final_rank = -1
+        error_info = str(e)
+    
+    # 保存结果到JSON文件
+    save_result_to_file(result_file, model_name, prompt_type, try_times, final_rank, error_info)
     
     return final_rank
-            
+
+def save_result_to_file(result_file, model_name, prompt_type, try_times, final_rank, error_info=None):
+    """将结果保存到JSON文件中"""
+    result_info = {
+        "model_name": model_name,
+        "prompt_type": prompt_type,
+        "try_times": try_times,
+        "final_rank": final_rank,
+        "timestamp": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        "status": "success" if final_rank >= 0 else "error",
+        "error_info": error_info
+    }
+    
+    with open(result_file, 'w') as f:
+        json.dump(result_info, f, indent=2)
+    
+    print(f"结果已保存到: {result_file}")
+
 def begin_test(args):
     if args.test_type == 'ladder_match':
         final_rank = ladder_match(
@@ -500,8 +565,11 @@ def parse_args():
 def main():
     args = parse_args()
     final_rank = begin_test(args)
-    # 返回最终达到的层级作为程序退出码
-    sys.exit(final_rank)
+    
+    # 不再使用返回码携带层数信息
+    # 始终返回0表示程序正常结束
+    print(f"程序正常结束，结果已保存到结果文件中，最终层数: {final_rank}")
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()

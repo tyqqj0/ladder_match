@@ -17,7 +17,7 @@ from openpyxl.styles import PatternFill, Font
 from openpyxl.utils import get_column_letter
 
 # 导入模型配置
-from model_config import MODEL_CONFIG, TRY_TIMES_RANGE, DEFAULT_MAX_RETRIES, DEFAULT_MAX_WORKERS
+from model_config import MODEL_CONFIG, TRY_TIMES_RANGE, DEFAULT_MAX_RETRIES, DEFAULT_MAX_WORKERS, SERVICE_NAME
 
 # 配置日志
 logging.basicConfig(
@@ -136,7 +136,7 @@ def update_results_excel(all_results):
                 if isinstance(rank, (int, float)) and rank > 0 and rank > max_rank:
                     max_rank = rank
     
-    logging.info(f"检测到的最大层数: {max_rank}")
+    # logging.info(f"检测到的最大层数: {max_rank}")
     
     # 计算颜色范围
     def get_color_for_rank(rank):
@@ -310,7 +310,7 @@ def run_task(args):
         --test_type ladder_match \\
         --source_data_path source_dataset/shapez_2d_source_data_min_1_max_100_each_100/source_data.jsonl \\
         --output_dir_path {output_dir} \\
-        --service_name qianduoduo \\
+        --service_name {SERVICE_NAME} \\
         --model_name {model_name} \\
         --response_name response \\
         --prompt_type {prompt_type} \\
@@ -337,6 +337,9 @@ def run_task(args):
     
     # 创建任务日志文件
     log_file = os.path.join(run_dir, f"{model_name}_{prompt_type}_try{try_times}.log")
+    
+    # 定义结果文件路径
+    result_file = os.path.join(output_dir, f'result_{model_name}_{prompt_type}_try{try_times}.json')
     
     # 执行命令，最多重试MAX_RETRIES次
     success = False
@@ -376,13 +379,25 @@ def run_task(args):
                 f.write(f"\n命令执行时间: {end_time - start_time:.2f} 秒\n")
                 f.write(f"返回码: {process.returncode}\n\n")
             
-            # 检查是否成功，返回码为达到的层数（-1表示错误）
-            rank = process.returncode
-            if rank >= 0:  # 0表示第一关都没过，但程序正常运行
-                success = True
-                logging.info(f"任务成功完成: model_name={model_name}, prompt_type={prompt_type}, try_times={try_times}, 达到层数: {rank}")
+            # 不再依赖返回码，而是检查结果文件
+            if os.path.exists(result_file):
+                with open(result_file, 'r') as f:
+                    try:
+                        result_data = json.load(f)
+                        rank = result_data.get('final_rank', -1)
+                        error_info = result_data.get('error_info')
+                        
+                        if rank >= 0:  # 结果有效
+                            success = True
+                            logging.info(f"任务成功完成: model_name={model_name}, prompt_type={prompt_type}, try_times={try_times}, 达到层数: {rank}")
+                        else:
+                            logging.warning(f"任务失败: model_name={model_name}, prompt_type={prompt_type}, try_times={try_times}, 错误: {error_info}")
+                            time.sleep(1)  # 等待1秒后重试
+                    except json.JSONDecodeError:
+                        logging.error(f"结果文件格式错误: {result_file}")
+                        time.sleep(1)  # 等待1秒后重试
             else:
-                logging.warning(f"任务失败: model_name={model_name}, prompt_type={prompt_type}, try_times={try_times}, 返回码: {process.returncode}")
+                logging.warning(f"未找到结果文件: {result_file}")
                 time.sleep(1)  # 等待1秒后重试
                 
         except Exception as e:

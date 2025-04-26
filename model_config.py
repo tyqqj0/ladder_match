@@ -30,7 +30,7 @@ MODEL_CONFIG = {
     
     # Grok 模型
     'grok-3': ['1_llm', '2_llm', '1_mllm', '2_mllm'],      # 支持所有提示类型
-    'grok-2': ['1_llm', '2_llm', '1_mllm', '2_mllm'],      # 支持所有提示类型
+    # 'grok-2': ['1_llm', '2_llm', '1_mllm', '2_mllm'],      # 支持所有提示类型
     'grok-3-reasoner': ['1_llm', '2_llm', '1_mllm', '2_mllm'],  # 支持所有提示类型
 }
 
@@ -42,3 +42,6 @@ DEFAULT_MAX_RETRIES = 10
 
 # 默认的并行工作线程数
 DEFAULT_MAX_WORKERS = 40 
+
+# 服务名称
+SERVICE_NAME = 'tju_api'
